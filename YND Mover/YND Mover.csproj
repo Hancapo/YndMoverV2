@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <RootNamespace>YND_Mover</RootNamespace>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+      <PackageReference Include="FolderBrowserEx" Version="1.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="CodeWalker.Core">
+        <HintPath>..\..\..\Downloads\CodeWalker30_dev44\CodeWalker30_dev44\CodeWalker.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="SharpDX">
+        <HintPath>..\..\..\Downloads\CodeWalker30_dev44\CodeWalker30_dev44\SharpDX.dll</HintPath>
+      </Reference>
+      <Reference Include="SharpDX.Mathematics">
+        <HintPath>..\..\..\Downloads\CodeWalker30_dev44\CodeWalker30_dev44\SharpDX.Mathematics.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
